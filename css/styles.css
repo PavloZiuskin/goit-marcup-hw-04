@@ -177,9 +177,16 @@
 
 /* HERO */
 .hero {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--foot-bgc-color);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), #C4C4C4), url(../images/Hero/Hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .hero-title {
@@ -324,6 +331,39 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+
+/* Client */
+.client-list {
+  display: flex;
+  align-items: center;
+  gap: var(--card-gap);
+}
+.icon-item {
+  flex-basis: calc ((100% - 5 * var(--card-gap)) / 6);
+}
+.btn-icon {
+  
+  width: 170px;
+  margin: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 32px;
+  padding-left: 32px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.btn-icon:hover {
+  border: 1px solid var(--acsent-text-color);
+}
+.icon {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+.icon:hover {
+  fill: var(--acsent-text-color);
 }
 /* end page one*/
 
