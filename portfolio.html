@@ -25,11 +25,10 @@
   </head>
   <body class="body">
     <!-- HEADER -->
-   <header class="header">
+    <header class="header">
       <!-- NAV HEADER -->
       <div class="conteainer header-div">
         <nav class="header-nav">
-
           <a href="index.html" class="header-logo link"
             >Web<span class="header-text">Studio</span></a
           >
@@ -51,19 +50,27 @@
         <!-- CONTACTS LIST -->
         <ul class="header-items">
           <li class="header-contacts">
-            <a class="contacts-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            <a class="contacts-link link" href="mailto:info@devstudio.com">
+              <svg class="heder-icon icon" width="16" height="12">
+                <use href="./images/svg/icons.svg#mail"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
 
           <li class="header-contacts">
-            <a class="contacts-link link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
+            <a class="contacts-link link" href="tel:+380961111111">
+              <svg class="heder-icon icon" width="10" height="16">
+                <use href="./images/svg/icons.svg#phone"></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
       </div>
     </header>
+
+    
     <!-- MAIN -->
     <main>
       <!-- PORTFOLIO -->
@@ -238,11 +245,11 @@
     <!-- FOOTER -->
     <footer class="footer">
       <div class="container footer-div">
-        <a href="index.html" class="header-logo link">
-          Web<span class="footer-text">Studio</span></a
-        >
         <!-- ADDRESSES -->
         <address class="footer-add">
+          <a href="index.html" class="footer-logo link">
+            Web<span class="footer-text">Studio</span></a
+          >
           <ul class="footer-list list">
             <li class="footer-item">
               <a
@@ -261,7 +268,7 @@
                 >info@devstudio.com</a
               >
             </li>
-            
+
             <li class="footer-item">
               <a class="contacts-footer-link link" href="tel:+380961111111"
                 >+38 096 111 11 11</a
@@ -269,6 +276,63 @@
             </li>
           </ul>
         </address>
+        <div class="socialyti-div">
+          <h2 class="socialyti-subtitle">ПРИЄДНУЙТЕСЬ</h2>
+          <ul class="socialyti-list list">
+            <li class="socialyti-item">
+              <a
+                class="socialyti-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <svg class="socialyti-socials" width="20" height="20">
+                  <use href="./images/svg/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socialyti-item">
+              <a
+                class="socialyti-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter"
+              >
+                <svg class="socialyti-socials" width="20" height="20">
+                  <use href="./images/svg/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socialyti-item">
+              <a
+                class="socialyti-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <svg class="socialyti-socials" width="20" height="20">
+                  <use href="./images/svg/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socialyti-item">
+              <a
+                class="socialyti-link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Linkedin"
+              >
+                <svg class="socialyti-socials" width="20" height="20">
+                  <use href="./images/svg/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
