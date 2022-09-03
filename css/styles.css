@@ -169,6 +169,7 @@
   color: var(--acsent-text-color);
 }
 
+
 /* header-contacts */
 .contacts-link {
   display: flex;
@@ -473,6 +474,7 @@
 }
 .portfolio-link {
   display: block;
+  text-decoration: none;
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
