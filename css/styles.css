@@ -168,6 +168,9 @@
 .header-link:focus {
   color: var(--acsent-text-color);
 }
+.header-item, .header-link.current {
+  color: var(--acsent-text-color);
+}
 
 
 /* header-contacts */
